@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BTS-LogicBoard)(type Legacy)(uri ${KIPRJMOD}/BTS-LogicBoard.lib)(options "")(descr ""))
+)
