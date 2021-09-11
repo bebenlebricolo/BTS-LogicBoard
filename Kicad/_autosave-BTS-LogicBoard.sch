@@ -1343,21 +1343,21 @@ Peltier modules' cooling fan control logic
 Text Notes 6975 2425 0    39   ~ 0
 This configuration allows the capacitor\nto charge up quickly when PWM is enabled (charged up in \nfew µseconds) and discharge very slowly through the\n390k resistor. Like so, cooling fans will stay on for about\n2 minutes after the modules are shut off, so that we are \ntaking care of the thermal inertia of the modules.
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 61480724
 P 6250 4275
-F 0 "H?" V 6487 4278 50  0000 C CNN
+F 0 "H1" V 6487 4278 50  0000 C CNN
 F 1 "MountingHole_Pad" V 6396 4278 50  0000 C CNN
-F 2 "" H 6250 4275 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 6250 4275 50  0001 C CNN
 F 3 "~" H 6250 4275 50  0001 C CNN
 	1    6250 4275
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 61480D81
 P 6350 4275
-F 0 "#PWR?" H 6350 4025 50  0001 C CNN
+F 0 "#PWR09" H 6350 4025 50  0001 C CNN
 F 1 "GND" H 6355 4102 50  0000 C CNN
 F 2 "" H 6350 4275 50  0001 C CNN
 F 3 "" H 6350 4275 50  0001 C CNN
@@ -1365,21 +1365,21 @@ F 3 "" H 6350 4275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 614814C8
 P 6250 4550
-F 0 "H?" V 6487 4553 50  0000 C CNN
+F 0 "H2" V 6487 4553 50  0000 C CNN
 F 1 "MountingHole_Pad" V 6396 4553 50  0000 C CNN
-F 2 "" H 6250 4550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 6250 4550 50  0001 C CNN
 F 3 "~" H 6250 4550 50  0001 C CNN
 	1    6250 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 614814CE
 P 6350 4550
-F 0 "#PWR?" H 6350 4300 50  0001 C CNN
+F 0 "#PWR010" H 6350 4300 50  0001 C CNN
 F 1 "GND" H 6355 4377 50  0000 C CNN
 F 2 "" H 6350 4550 50  0001 C CNN
 F 3 "" H 6350 4550 50  0001 C CNN
@@ -1387,21 +1387,21 @@ F 3 "" H 6350 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 61484F71
 P 6250 4800
-F 0 "H?" V 6487 4803 50  0000 C CNN
+F 0 "H3" V 6487 4803 50  0000 C CNN
 F 1 "MountingHole_Pad" V 6396 4803 50  0000 C CNN
-F 2 "" H 6250 4800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 6250 4800 50  0001 C CNN
 F 3 "~" H 6250 4800 50  0001 C CNN
 	1    6250 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 61484F77
 P 6350 4800
-F 0 "#PWR?" H 6350 4550 50  0001 C CNN
+F 0 "#PWR011" H 6350 4550 50  0001 C CNN
 F 1 "GND" H 6355 4627 50  0000 C CNN
 F 2 "" H 6350 4800 50  0001 C CNN
 F 3 "" H 6350 4800 50  0001 C CNN
@@ -1409,21 +1409,21 @@ F 3 "" H 6350 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 61488E72
 P 6250 5050
-F 0 "H?" V 6487 5053 50  0000 C CNN
+F 0 "H4" V 6487 5053 50  0000 C CNN
 F 1 "MountingHole_Pad" V 6396 5053 50  0000 C CNN
-F 2 "" H 6250 5050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 6250 5050 50  0001 C CNN
 F 3 "~" H 6250 5050 50  0001 C CNN
 	1    6250 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 61488E78
 P 6350 5050
-F 0 "#PWR?" H 6350 4800 50  0001 C CNN
+F 0 "#PWR012" H 6350 4800 50  0001 C CNN
 F 1 "GND" H 6355 4877 50  0000 C CNN
 F 2 "" H 6350 5050 50  0001 C CNN
 F 3 "" H 6350 5050 50  0001 C CNN
