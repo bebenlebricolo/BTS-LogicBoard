@@ -19,7 +19,7 @@ U 1 1 613B3E2B
 P 3025 5000
 F 0 "U1" H 3025 5665 50  0000 C CNN
 F 1 "NCS2252SN2T1G" H 3025 5574 50  0000 C CNN
-F 2 "" H 3025 5000 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3025 5000 50  0001 C CNN
 F 3 "" H 3025 5000 50  0001 C CNN
 	1    3025 5000
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 613C251E
 P 4925 2850
 F 0 "D3" V 4879 2930 50  0000 L CNN
 F 1 "1N4148" V 4970 2930 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4925 2675 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4925 2675 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4925 2850 50  0001 C CNN
 	1    4925 2850
 	0    1    1    0   
@@ -156,7 +156,7 @@ U 1 1 613C32CA
 P 5475 2850
 F 0 "D4" V 5521 2770 50  0000 R CNN
 F 1 "1N4148" V 5430 2770 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5475 2675 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5475 2675 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5475 2850 50  0001 C CNN
 	1    5475 2850
 	0    -1   -1   0   
@@ -169,7 +169,7 @@ U 1 1 613C46A1
 P 5225 3150
 F 0 "RV1" V 5018 3150 50  0000 C CNN
 F 1 "R_POT" V 5109 3150 50  0000 C CNN
-F 2 "" H 5225 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5225 3150 50  0001 C CNN
 F 3 "~" H 5225 3150 50  0001 C CNN
 	1    5225 3150
 	0    1    1    0   
@@ -217,7 +217,7 @@ U 1 1 613C8E08
 P 4225 3100
 F 0 "R12" H 4295 3146 50  0000 L CNN
 F 1 "1k" H 4295 3055 50  0000 L CNN
-F 2 "" V 4155 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4155 3100 50  0001 C CNN
 F 3 "~" H 4225 3100 50  0001 C CNN
 	1    4225 3100
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 613CD104
 P 2175 3300
 F 0 "R6" H 2245 3346 50  0000 L CNN
 F 1 "1k" H 2245 3255 50  0000 L CNN
-F 2 "" V 2105 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2105 3300 50  0001 C CNN
 F 3 "~" H 2175 3300 50  0001 C CNN
 	1    2175 3300
 	1    0    0    -1  
@@ -293,7 +293,7 @@ U 1 1 613CFCC9
 P 1875 3800
 F 0 "R5" H 1945 3846 50  0000 L CNN
 F 1 "1k" H 1945 3755 50  0000 L CNN
-F 2 "" V 1805 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1805 3800 50  0001 C CNN
 F 3 "~" H 1875 3800 50  0001 C CNN
 	1    1875 3800
 	1    0    0    -1  
@@ -315,7 +315,7 @@ U 1 1 613D0344
 P 1325 3650
 F 0 "R2" V 1118 3650 50  0000 C CNN
 F 1 "56k" V 1209 3650 50  0000 C CNN
-F 2 "" V 1255 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1255 3650 50  0001 C CNN
 F 3 "~" H 1325 3650 50  0001 C CNN
 	1    1325 3650
 	0    1    1    0   
@@ -324,8 +324,8 @@ $Comp
 L Device:C C3
 U 1 1 613D0976
 P 1625 3800
-F 0 "C3" H 1510 3754 50  0000 R CNN
-F 1 "100nF" H 1510 3845 50  0000 R CNN
+F 0 "C3" H 1880 3810 50  0000 R CNN
+F 1 "100nF" H 1900 3915 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1663 3650 50  0001 C CNN
 F 3 "~" H 1625 3800 50  0001 C CNN
 	1    1625 3800
@@ -374,7 +374,7 @@ U 1 1 613D8C8D
 P 1300 6500
 F 0 "R1" V 1093 6500 50  0000 C CNN
 F 1 "1k" V 1184 6500 50  0000 C CNN
-F 2 "" V 1230 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1230 6500 50  0001 C CNN
 F 3 "~" H 1300 6500 50  0001 C CNN
 	1    1300 6500
 	0    1    1    0   
@@ -384,12 +384,12 @@ Wire Wire Line
 $Comp
 L Device:R R4
 U 1 1 613DE04B
-P 1800 5850
-F 0 "R4" H 1870 5896 50  0000 L CNN
-F 1 "470" H 1870 5805 50  0000 L CNN
-F 2 "" V 1730 5850 50  0001 C CNN
-F 3 "~" H 1800 5850 50  0001 C CNN
-	1    1800 5850
+P 1800 5750
+F 0 "R4" H 1870 5796 50  0000 L CNN
+F 1 "470" H 1870 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1730 5750 50  0001 C CNN
+F 3 "~" H 1800 5750 50  0001 C CNN
+	1    1800 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -430,17 +430,17 @@ $EndComp
 Connection ~ 1500 1600
 Wire Wire Line
 	1500 1600 1900 1600
-Text Label 1800 5700 0    50   ~ 0
+Text Label 1800 5600 0    50   ~ 0
 5V
 $Comp
 L Device:LED D1
 U 1 1 613EC857
-P 1800 6150
-F 0 "D1" V 1839 6032 50  0000 R CNN
-F 1 "LED" V 1748 6032 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 1800 6150 50  0001 C CNN
-F 3 "~" H 1800 6150 50  0001 C CNN
-	1    1800 6150
+P 1800 6050
+F 0 "D1" V 1839 5932 50  0000 R CNN
+F 1 "LED" V 1748 5932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 1800 6050 50  0001 C CNN
+F 3 "~" H 1800 6050 50  0001 C CNN
+	1    1800 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -449,7 +449,7 @@ U 1 1 613EEF12
 P 1500 6650
 F 0 "R3" H 1430 6604 50  0000 R CNN
 F 1 "56k" H 1430 6695 50  0000 R CNN
-F 2 "" V 1430 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1430 6650 50  0001 C CNN
 F 3 "~" H 1500 6650 50  0001 C CNN
 	1    1500 6650
 	-1   0    0    1   
@@ -471,7 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 6800 1800 6700
 Connection ~ 1500 6800
-Text Notes 2150 6200 0    50   ~ 0
+Text Notes 2100 6025 0    50   ~ 0
 PWM generator \nEnable LED
 Text Notes 825  3300 0    50   ~ 0
 SPY Line uses the SS Brewtech \ntemperature monitor/regulator\npump's signal in order to fire\nup the PWM generator.
@@ -483,7 +483,7 @@ U 1 1 613FE220
 P 3575 850
 F 0 "R10" H 3645 896 50  0000 L CNN
 F 1 "10k" H 3645 805 50  0000 L CNN
-F 2 "" V 3505 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3505 850 50  0001 C CNN
 F 3 "~" H 3575 850 50  0001 C CNN
 	1    3575 850 
 	1    0    0    -1  
@@ -494,7 +494,7 @@ U 1 1 613FE8C6
 P 3575 1150
 F 0 "R11" H 3645 1196 50  0000 L CNN
 F 1 "10k" H 3645 1105 50  0000 L CNN
-F 2 "" V 3505 1150 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3505 1150 50  0001 C CNN
 F 3 "~" H 3575 1150 50  0001 C CNN
 	1    3575 1150
 	1    0    0    -1  
@@ -537,192 +537,192 @@ COMP-Out
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 6141E2CD
-P 8525 1550
-F 0 "SW1" H 8525 1750 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8525 750 50  0000 C CNN
-F 2 "" H 8525 1550 50  0001 C CNN
-F 3 "~" H 8525 1550 50  0001 C CNN
-	1    8525 1550
+P 9950 1550
+F 0 "SW1" H 9950 1750 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 9950 750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 1550 50  0001 C CNN
+F 3 "~" H 9950 1550 50  0001 C CNN
+	1    9950 1550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 2 1 6141EC69
-P 8525 2000
-F 0 "SW1" H 8525 1775 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8525 1650 50  0000 C CNN
-F 2 "" H 8525 2000 50  0001 C CNN
-F 3 "~" H 8525 2000 50  0001 C CNN
-	2    8525 2000
+P 9950 2000
+F 0 "SW1" H 9950 1775 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 9950 1650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 2000 50  0001 C CNN
+F 3 "~" H 9950 2000 50  0001 C CNN
+	2    9950 2000
 	-1   0    0    -1  
 $EndComp
-Text Label 8025 1450 2    50   ~ 0
+Text Label 9450 1450 2    50   ~ 0
 COMP-Out
-Text Label 9200 1550 0    50   ~ 0
+Text Label 10625 1550 0    50   ~ 0
 IN+
-Text Label 9200 2000 0    50   ~ 0
+Text Label 10625 2000 0    50   ~ 0
 IN-
 Wire Notes Line
-	9075 1200 9075 2300
+	10500 1200 10500 2300
 Wire Notes Line
-	7875 2300 7875 1200
+	9300 2300 9300 1200
 Wire Notes Line
-	7875 1200 9075 1200
+	9300 1200 10500 1200
 Wire Notes Line
-	7875 2300 9075 2300
-Text Notes 7825 1100 0    50   ~ 0
+	9300 2300 10500 2300
+Text Notes 9250 1100 0    50   ~ 0
 Switch DPDT Hot/Cold selection \n-> reroutes PWM signal either to IN+\n      or IN- input pins
 Wire Wire Line
-	8025 2100 8325 2100
+	9450 2100 9750 2100
 Wire Wire Line
-	8325 1650 8225 1650
+	9750 1650 9650 1650
 Wire Wire Line
-	8225 1650 8225 1775
+	9650 1650 9650 1775
 Wire Wire Line
-	8225 1900 8325 1900
-Connection ~ 8225 1775
+	9650 1900 9750 1900
+Connection ~ 9650 1775
 Wire Wire Line
-	8225 1775 8225 1900
+	9650 1775 9650 1900
 Wire Wire Line
-	8325 1450 8025 1450
+	9750 1450 9450 1450
 Wire Wire Line
-	8025 1450 8025 2100
+	9450 1450 9450 2100
 $Comp
 L power:GND #PWR0114
 U 1 1 61432D40
-P 7775 1775
-F 0 "#PWR0114" H 7775 1525 50  0001 C CNN
-F 1 "GND" V 7780 1647 50  0000 R CNN
-F 2 "" H 7775 1775 50  0001 C CNN
-F 3 "" H 7775 1775 50  0001 C CNN
-	1    7775 1775
+P 9200 1775
+F 0 "#PWR0114" H 9200 1525 50  0001 C CNN
+F 1 "GND" V 9205 1647 50  0000 R CNN
+F 2 "" H 9200 1775 50  0001 C CNN
+F 3 "" H 9200 1775 50  0001 C CNN
+	1    9200 1775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7775 1775 8225 1775
+	9200 1775 9650 1775
 Wire Wire Line
-	8725 2000 9200 2000
+	10150 2000 10625 2000
 Wire Wire Line
-	8725 1550 9200 1550
+	10150 1550 10625 1550
 $Comp
 L Switch:SW_DPDT_x2 SW2
 U 1 1 6143E0F8
-P 8525 3900
-F 0 "SW2" H 8525 4100 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8525 3075 50  0000 C CNN
-F 2 "" H 8525 3900 50  0001 C CNN
-F 3 "~" H 8525 3900 50  0001 C CNN
-	1    8525 3900
+P 9950 3900
+F 0 "SW2" H 9950 4100 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 9950 3075 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 3900 50  0001 C CNN
+F 3 "~" H 9950 3900 50  0001 C CNN
+	1    9950 3900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW2
 U 2 1 6143E0FE
-P 8525 4350
-F 0 "SW2" H 8525 4125 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8525 3975 50  0000 C CNN
-F 2 "" H 8525 4350 50  0001 C CNN
-F 3 "~" H 8525 4350 50  0001 C CNN
-	2    8525 4350
+P 9950 4350
+F 0 "SW2" H 9950 4125 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 9950 3975 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 4350 50  0001 C CNN
+F 3 "~" H 9950 4350 50  0001 C CNN
+	2    9950 4350
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
-	9075 3550 9075 4650
+	10500 3550 10500 4650
 Wire Notes Line
-	7875 4650 7875 3550
+	9300 4650 9300 3550
 Wire Notes Line
-	7875 3550 9075 3550
+	9300 3550 10500 3550
 Wire Notes Line
-	7875 4650 9075 4650
-Text Notes 7825 3450 0    50   ~ 0
+	9300 4650 10500 4650
+Text Notes 9250 3450 0    50   ~ 0
 Switch DPDT Hot/Cold selection \n-> reroutes PWM signal either to IN+\n      or IN- input pins
 Wire Wire Line
-	8025 4450 8325 4450
+	9450 4450 9750 4450
 Wire Wire Line
-	8225 4250 8325 4250
+	9650 4250 9750 4250
 Wire Wire Line
-	8325 3800 8025 3800
+	9750 3800 9450 3800
 $Comp
 L power:GND #PWR0115
 U 1 1 6143E114
-P 8025 4450
-F 0 "#PWR0115" H 8025 4200 50  0001 C CNN
-F 1 "GND" H 8030 4277 50  0000 C CNN
-F 2 "" H 8025 4450 50  0001 C CNN
-F 3 "" H 8025 4450 50  0001 C CNN
-	1    8025 4450
+P 9450 4450
+F 0 "#PWR0115" H 9450 4200 50  0001 C CNN
+F 1 "GND" H 9455 4277 50  0000 C CNN
+F 2 "" H 9450 4450 50  0001 C CNN
+F 3 "" H 9450 4450 50  0001 C CNN
+	1    9450 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8725 4350 9200 4350
+	10150 4350 10625 4350
 Wire Wire Line
-	8725 3900 9200 3900
-Text Label 8225 4250 2    50   ~ 0
+	10150 3900 10625 3900
+Text Label 9650 4250 2    50   ~ 0
 PSU_ON
 $Comp
 L power:GND #PWR0116
 U 1 1 61441443
-P 9200 4350
-F 0 "#PWR0116" H 9200 4100 50  0001 C CNN
-F 1 "GND" H 9205 4177 50  0000 C CNN
-F 2 "" H 9200 4350 50  0001 C CNN
-F 3 "" H 9200 4350 50  0001 C CNN
-	1    9200 4350
+P 10625 4350
+F 0 "#PWR0116" H 10625 4100 50  0001 C CNN
+F 1 "GND" H 10630 4177 50  0000 C CNN
+F 2 "" H 10625 4350 50  0001 C CNN
+F 3 "" H 10625 4350 50  0001 C CNN
+	1    10625 4350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	9150 4225 9375 4225
+	9250 4200 9025 4200
 Wire Notes Line
-	9375 4225 9375 4625
+	9025 4200 9025 4600
 Wire Notes Line
-	9375 4625 9175 4625
-Text Notes 9450 4525 0    50   ~ 0
+	9025 4600 9225 4600
+Text Notes 7725 4525 0    50   ~ 0
 Connects PSU_ON pin to ground\nto switch on the PC\nPower Supply (ATX PSU)
 Wire Notes Line
-	8325 3750 8725 3750
+	9750 3750 10150 3750
 Wire Notes Line
-	8725 3750 8725 4075
+	10150 3750 10150 4075
 Wire Notes Line
-	8725 4075 8325 4075
+	10150 4075 9750 4075
 Wire Notes Line
-	8325 4075 8325 3750
+	9750 4075 9750 3750
 Wire Notes Line
-	8325 4200 8725 4200
+	9750 4200 10150 4200
 Wire Notes Line
-	8725 4200 8725 4525
+	10150 4200 10150 4525
 Wire Notes Line
-	8725 4525 8325 4525
+	10150 4525 9750 4525
 Wire Notes Line
-	8325 4525 8325 4200
+	9750 4525 9750 4200
 Wire Notes Line
-	8525 4075 8525 4200
+	9950 4075 9950 4200
 Wire Notes Line
-	8725 1400 8725 1725
+	10150 1400 10150 1725
 Wire Notes Line
-	8725 1725 8325 1725
+	10150 1725 9750 1725
 Wire Notes Line
-	8325 1725 8325 1400
+	9750 1725 9750 1400
 Wire Notes Line
-	8325 1400 8725 1400
+	9750 1400 10150 1400
 Wire Notes Line
-	8325 1850 8725 1850
+	9750 1850 10150 1850
 Wire Notes Line
-	8725 1850 8725 2175
+	10150 1850 10150 2175
 Wire Notes Line
-	8725 2175 8325 2175
+	10150 2175 9750 2175
 Wire Notes Line
-	8325 2175 8325 1850
+	9750 2175 9750 1850
 Wire Notes Line
-	8525 1725 8525 1850
+	9950 1725 9950 1850
 $Comp
 L power:GND #PWR0117
 U 1 1 61451678
-P 8025 3800
-F 0 "#PWR0117" H 8025 3550 50  0001 C CNN
-F 1 "GND" V 8030 3672 50  0000 R CNN
-F 2 "" H 8025 3800 50  0001 C CNN
-F 3 "" H 8025 3800 50  0001 C CNN
-	1    8025 3800
+P 9450 3800
+F 0 "#PWR0117" H 9450 3550 50  0001 C CNN
+F 1 "GND" V 9455 3672 50  0000 R CNN
+F 2 "" H 9450 3800 50  0001 C CNN
+F 3 "" H 9450 3800 50  0001 C CNN
+	1    9450 3800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -742,7 +742,7 @@ U 1 1 6145BBCD
 P 3000 6550
 F 0 "R7" V 2793 6550 50  0000 C CNN
 F 1 "1k" V 2884 6550 50  0000 C CNN
-F 2 "" V 2930 6550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2930 6550 50  0001 C CNN
 F 3 "~" H 3000 6550 50  0001 C CNN
 	1    3000 6550
 	0    1    1    0   
@@ -755,7 +755,7 @@ U 1 1 6145BBD4
 P 3500 5900
 F 0 "R9" H 3570 5946 50  0000 L CNN
 F 1 "470" H 3570 5855 50  0000 L CNN
-F 2 "" V 3430 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3430 5900 50  0001 C CNN
 F 3 "~" H 3500 5900 50  0001 C CNN
 	1    3500 5900
 	1    0    0    -1  
@@ -779,7 +779,7 @@ U 1 1 6145BBE1
 P 3200 6700
 F 0 "R8" H 3130 6654 50  0000 R CNN
 F 1 "56k" H 3130 6745 50  0000 R CNN
-F 2 "" V 3130 6700 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3130 6700 50  0001 C CNN
 F 3 "~" H 3200 6700 50  0001 C CNN
 	1    3200 6700
 	-1   0    0    1   
@@ -802,21 +802,21 @@ Wire Wire Line
 	3500 6850 3500 6750
 Connection ~ 3200 6850
 Text Notes 3700 6225 0    50   ~ 0
-Mosfet driver Enabled
-Text Label 9200 3900 0    50   ~ 0
+H bridge mosfet driver Enabled
+Text Label 10625 3900 0    50   ~ 0
 HIP_DISABLE
 Wire Wire Line
-	7975 4000 8325 4000
-Text Label 7975 4000 2    50   ~ 0
+	9400 4000 9750 4000
+Text Label 9400 4000 2    50   ~ 0
 5V
 Wire Notes Line style solid rgb(0, 0, 0)
-	9225 3825 9625 3825
+	10650 3825 11050 3825
 Wire Notes Line
-	9175 3725 9700 3725
+	10600 3725 11125 3725
 Wire Notes Line
-	9700 3725 9700 4025
+	11125 3725 11125 4025
 Wire Notes Line
-	9700 4025 9175 4025
+	11125 4025 10600 4025
 Text Notes 3700 4775 0    50   ~ 0
 Output comparator used to straighten up \nand bufferise the NE555D output
 Wire Notes Line
@@ -852,14 +852,10 @@ Wire Notes Line
 Text Notes 4425 6775 0    50   ~ 0
 This configuration acts as a current robber.\nWhen the HIP_DISABLE signal is high (5V),\nthe transistor begins to conduct and most of the\ncurrent goes into the transistor, effectively switching off\nthe Enabled state LED
 Wire Notes Line
-	7275 525  11175 525 
-Wire Notes Line
 	11175 525  11175 5050
 Wire Notes Line
 	11175 5050 7275 5050
-Wire Notes Line
-	7275 5050 7275 525 
-Text Notes 7300 700  0    118  Italic 24
+Text Notes 8985 705  0    98   Italic 20
 Mechanical user interface
 Wire Notes Line
 	625  5475 6475 5475
@@ -973,17 +969,6 @@ Text Label 10375 5650 2    39   ~ 0
 HIP_HEN
 Text Label 10375 5750 2    39   ~ 0
 HIP_DISABLE
-$Comp
-L power:GND #PWR0121
-U 1 1 615EE7D8
-P 10375 5850
-F 0 "#PWR0121" H 10375 5600 50  0001 C CNN
-F 1 "GND" V 10380 5722 50  0000 R CNN
-F 2 "" H 10375 5850 50  0001 C CNN
-F 3 "" H 10375 5850 50  0001 C CNN
-	1    10375 5850
-	0    1    1    0   
-$EndComp
 Text Label 10375 5950 2    39   ~ 0
 IN+
 Text Label 10375 6050 2    39   ~ 0
@@ -996,7 +981,7 @@ U 1 1 615F7F55
 P 9775 5650
 F 0 "JP1" H 9775 5855 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9775 5764 50  0000 C CNN
-F 2 "" H 9775 5650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9775 5650 50  0001 C CNN
 F 3 "~" H 9775 5650 50  0001 C CNN
 	1    9775 5650
 	1    0    0    -1  
@@ -1020,7 +1005,7 @@ U 1 1 615FBBBF
 P 9675 6150
 F 0 "TP1" V 9870 6222 50  0000 C CNN
 F 1 "TestPoint" V 9779 6222 50  0000 C CNN
-F 2 "" H 9875 6150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9875 6150 50  0001 C CNN
 F 3 "~" H 9875 6150 50  0001 C CNN
 	1    9675 6150
 	0    -1   -1   0   
@@ -1033,7 +1018,7 @@ U 1 1 61600E9A
 P 4125 1875
 F 0 "J2" H 4205 1867 50  0000 L CNN
 F 1 "Conn_01x04" H 4205 1776 50  0000 L CNN
-F 2 "" H 4125 1875 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4125 1875 50  0001 C CNN
 F 3 "~" H 4125 1875 50  0001 C CNN
 	1    4125 1875
 	1    0    0    -1  
@@ -1091,7 +1076,7 @@ U 1 1 6162AF30
 P 8650 5600
 F 0 "J3" H 8730 5592 50  0000 L CNN
 F 1 "Conn_01x02" H 8730 5501 50  0000 L CNN
-F 2 "" H 8650 5600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8650 5600 50  0001 C CNN
 F 3 "~" H 8650 5600 50  0001 C CNN
 	1    8650 5600
 	1    0    0    -1  
@@ -1128,4 +1113,233 @@ F 3 "~" H 5225 3750 50  0001 C CNN
 	1    5225 3750
 	1    0    0    -1  
 $EndComp
+Text Label 10375 5850 2    39   ~ 0
+FAN_TRIGGER
+Wire Wire Line
+	1800 6200 1800 6250
+Wire Wire Line
+	1800 6250 2225 6250
+Connection ~ 1800 6250
+Wire Wire Line
+	1800 6250 1800 6300
+Text Label 2225 6250 0    50   ~ 0
+PWM_Enabled_Line
+Wire Notes Line
+	7290 5050 7290 3900
+Wire Notes Line
+	7290 3900 8960 3900
+Wire Notes Line
+	8960 3900 8960 520 
+Wire Notes Line
+	8960 520  11175 520 
+$Comp
+L Transistor_BJT:BC807 Q4
+U 1 1 613EB2C5
+P 6250 1500
+F 0 "Q4" H 6441 1454 50  0000 L CNN
+F 1 "BC807" H 6441 1545 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6450 1425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 6250 1500 50  0001 L CNN
+	1    6250 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 613EB2D7
+P 6350 2125
+F 0 "#PWR05" H 6350 1875 50  0001 C CNN
+F 1 "GND" H 6355 1952 50  0000 C CNN
+F 2 "" H 6350 2125 50  0001 C CNN
+F 3 "" H 6350 2125 50  0001 C CNN
+	1    6350 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 613EB2DD
+P 5900 1500
+F 0 "R13" V 5693 1500 50  0000 C CNN
+F 1 "1k" V 5784 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5830 1500 50  0001 C CNN
+F 3 "~" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 613EB2E3
+P 6350 1975
+F 0 "C8" H 6605 1985 50  0000 R CNN
+F 1 "470uF" H 6625 2090 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 6388 1825 50  0001 C CNN
+F 3 "~" H 6350 1975 50  0001 C CNN
+	1    6350 1975
+	-1   0    0    1   
+$EndComp
+Text Label 5750 1500 2    50   ~ 0
+PWM_Enabled_Line
+Wire Wire Line
+	6350 1700 6350 1775
+Wire Wire Line
+	6350 1775 6675 1775
+Wire Wire Line
+	6675 1775 6675 1825
+Connection ~ 6350 1775
+Wire Wire Line
+	6350 1775 6350 1825
+$Comp
+L Device:R R14
+U 1 1 61417592
+P 6675 1975
+F 0 "R14" V 6468 1975 50  0000 C CNN
+F 1 "390k" V 6559 1975 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6605 1975 50  0001 C CNN
+F 3 "~" H 6675 1975 50  0001 C CNN
+	1    6675 1975
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 614184BE
+P 6675 2125
+F 0 "#PWR06" H 6675 1875 50  0001 C CNN
+F 1 "GND" H 6680 1952 50  0000 C CNN
+F 2 "" H 6675 2125 50  0001 C CNN
+F 3 "" H 6675 2125 50  0001 C CNN
+	1    6675 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L BTS-LogicBoard:NCS2252SN2T1G U3
+U 1 1 6141E24F
+P 7725 1825
+F 0 "U3" H 7725 2490 50  0000 C CNN
+F 1 "NCS2252SN2T1G" H 7725 2399 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7725 1825 50  0001 C CNN
+F 3 "" H 7725 1825 50  0001 C CNN
+	1    7725 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 6141E256
+P 7375 1575
+F 0 "#PWR08" H 7375 1325 50  0001 C CNN
+F 1 "GND" V 7380 1447 50  0000 R CNN
+F 2 "" H 7375 1575 50  0001 C CNN
+F 3 "" H 7375 1575 50  0001 C CNN
+	1    7375 1575
+	0    1    1    0   
+$EndComp
+Text Label 8075 1425 0    50   ~ 0
+5V
+Text Label 7375 1775 2    50   ~ 0
+2.5V
+Text Label 7375 1425 2    50   ~ 0
+Inv_Fan_trigger
+Wire Wire Line
+	6675 1775 7125 1775
+Wire Wire Line
+	7125 1775 7125 1900
+Wire Wire Line
+	7125 1900 8075 1900
+Wire Wire Line
+	8075 1900 8075 1775
+Connection ~ 6675 1775
+Text Label 6625 3125 2    50   ~ 0
+Inv_Fan_trigger
+$Comp
+L Transistor_BJT:BC817 Q5
+U 1 1 61425D3C
+P 7175 3125
+F 0 "Q5" H 7366 3171 50  0000 L CNN
+F 1 "BC817" H 7366 3080 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7375 3050 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 7175 3125 50  0001 L CNN
+	1    7175 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 3125 6975 3125
+$Comp
+L Device:R R17
+U 1 1 61425D43
+P 7275 2750
+F 0 "R17" H 7345 2796 50  0000 L CNN
+F 1 "1k" H 7345 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7205 2750 50  0001 C CNN
+F 3 "~" H 7275 2750 50  0001 C CNN
+	1    7275 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 61425D4A
+P 6975 3275
+F 0 "R16" H 6905 3229 50  0000 R CNN
+F 1 "56k" H 6905 3320 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6905 3275 50  0001 C CNN
+F 3 "~" H 6975 3275 50  0001 C CNN
+	1    6975 3275
+	-1   0    0    1   
+$EndComp
+Connection ~ 6975 3125
+$Comp
+L power:GND #PWR07
+U 1 1 61425D51
+P 6975 3425
+F 0 "#PWR07" H 6975 3175 50  0001 C CNN
+F 1 "GND" H 6980 3252 50  0000 C CNN
+F 2 "" H 6975 3425 50  0001 C CNN
+F 3 "" H 6975 3425 50  0001 C CNN
+	1    6975 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 3425 7275 3425
+Wire Wire Line
+	7275 3425 7275 3325
+Connection ~ 6975 3425
+Text Notes 7475 2825 0    50   ~ 0
+Cooling fans mosfet \ndrive signal
+Wire Wire Line
+	7275 2900 7750 2900
+Wire Wire Line
+	7275 2900 7275 2925
+Connection ~ 7275 2900
+Text Label 7275 2600 0    50   ~ 0
+Vcc
+Text Label 6350 1175 0    50   ~ 0
+5V
+Wire Wire Line
+	6350 1175 6350 1300
+$Comp
+L Device:R R15
+U 1 1 6142D373
+P 6775 3125
+F 0 "R15" H 6845 3171 50  0000 L CNN
+F 1 "1k" H 6845 3080 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6705 3125 50  0001 C CNN
+F 3 "~" H 6775 3125 50  0001 C CNN
+	1    6775 3125
+	0    1    1    0   
+$EndComp
+Text Label 7750 2900 0    39   ~ 0
+FAN_TRIGGER
+Wire Notes Line
+	4525 575  8825 575 
+Wire Notes Line
+	8825 575  8825 3750
+Wire Notes Line
+	8825 3750 6050 3750
+Wire Notes Line
+	6050 3750 6050 2350
+Wire Notes Line
+	6050 2350 4525 2350
+Wire Notes Line
+	4525 2350 4525 575 
+Text Notes 4575 750  0    98   Italic 20
+Peltier modules' cooling fan control logic
+Text Notes 6975 2425 0    39   ~ 0
+This configuration allows the capacitor\nto charge up quickly when PWM is enabled (charged up in \nfew µseconds) and discharge very slowly through the\n390k resistor. Like so, cooling fans will stay on for about\n2 minutes after the modules are shut off, so that we are \ntaking care of the thermal inertia of the modules.
 $EndSCHEMATC
