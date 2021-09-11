@@ -973,17 +973,6 @@ Text Label 10375 5650 2    39   ~ 0
 HIP_HEN
 Text Label 10375 5750 2    39   ~ 0
 HIP_DISABLE
-$Comp
-L power:GND #PWR0121
-U 1 1 615EE7D8
-P 10375 5850
-F 0 "#PWR0121" H 10375 5600 50  0001 C CNN
-F 1 "GND" V 10380 5722 50  0000 R CNN
-F 2 "" H 10375 5850 50  0001 C CNN
-F 3 "" H 10375 5850 50  0001 C CNN
-	1    10375 5850
-	0    1    1    0   
-$EndComp
 Text Label 10375 5950 2    39   ~ 0
 IN+
 Text Label 10375 6050 2    39   ~ 0
@@ -1128,4 +1117,6 @@ F 3 "~" H 5225 3750 50  0001 C CNN
 	1    5225 3750
 	1    0    0    -1  
 $EndComp
+Text Label 10375 5850 2    39   ~ 0
+FAN_TRIGGER
 $EndSCHEMATC
