@@ -1270,15 +1270,13 @@ Wire Wire Line
 Wire Wire Line
 	7275 3425 7275 3325
 Connection ~ 6975 3425
-Text Notes 7475 2825 0    50   ~ 0
+Text Notes 7550 2825 0    50   ~ 0
 Cooling fans mosfet \ndrive signal
 Wire Wire Line
 	7275 2900 7750 2900
 Wire Wire Line
 	7275 2900 7275 2925
 Connection ~ 7275 2900
-Text Label 7275 2600 0    50   ~ 0
-Vcc
 Text Label 6350 1175 0    50   ~ 0
 5V
 Wire Wire Line
@@ -1499,4 +1497,6 @@ Text Label 2225 4300 0    50   ~ 0
 PWM_Enable
 Text Label 1150 6500 2    50   ~ 0
 PWM_Enable
+Text Label 7275 2600 0    50   ~ 0
+5V
 $EndSCHEMATC
