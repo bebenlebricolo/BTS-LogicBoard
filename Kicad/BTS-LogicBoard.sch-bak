@@ -288,28 +288,6 @@ F 3 "" H 2175 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
-U 1 1 613CFCC9
-P 1875 3800
-F 0 "R5" H 1945 3846 50  0000 L CNN
-F 1 "56k" H 1945 3755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1805 3800 50  0001 C CNN
-F 3 "~" H 1875 3800 50  0001 C CNN
-	1    1875 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 613D002F
-P 1875 3950
-F 0 "#PWR0109" H 1875 3700 50  0001 C CNN
-F 1 "GND" H 1880 3777 50  0000 C CNN
-F 2 "" H 1875 3950 50  0001 C CNN
-F 3 "" H 1875 3950 50  0001 C CNN
-	1    1875 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 613D0344
 P 1325 3650
@@ -333,16 +311,10 @@ F 3 "~" H 1625 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1475 3650 1625 3650
-Connection ~ 1875 3650
 Connection ~ 1625 3650
 Wire Wire Line
 	1625 3650 1875 3650
-Wire Wire Line
-	1625 3950 1875 3950
-Connection ~ 1875 3950
-Wire Wire Line
-	1175 3650 1025 3650
-Text Label 1025 3650 2    50   ~ 0
+Text Label 275  3650 2    50   ~ 0
 Pump-On
 $Comp
 L Transistor_BJT:BC817 Q1
@@ -460,7 +432,7 @@ Wire Wire Line
 Connection ~ 1500 6800
 Text Notes 2100 6025 0    50   ~ 0
 PWM generator \nEnable LED (turns on when \nNE555 is running)
-Text Notes 825  3300 0    50   ~ 0
+Text Notes 775  3075 0    50   ~ 0
 SPY Line uses the SS Brewtech \ntemperature monitor/regulator\npump's signal in order to fire\nup the PWM generator.
 Text Label 3575 700  0    50   ~ 0
 5V
@@ -1412,18 +1384,18 @@ $EndComp
 Text Label 8450 5600 2    50   ~ 0
 Pump-On
 Wire Notes Line
-	725  3850 800  3850
+	-50  3875 25   3875
 Wire Notes Line
-	800  3850 800  3750
+	25   3875 25   3775
 Wire Notes Line
-	800  3750 900  3750
+	25   3775 125  3775
 Wire Notes Line
-	900  3750 900  3850
+	125  3775 125  3875
 Wire Notes Line
-	900  3850 1000 3850
-Text Notes 800  3750 0    50   ~ 0
+	125  3875 225  3875
+Text Notes 25   3775 0    50   ~ 0
 On
-Text Notes 900  3850 0    50   ~ 0
+Text Notes 125  3875 0    50   ~ 0
 Off
 $Comp
 L Transistor_BJT:BC817 Q6
@@ -1499,4 +1471,96 @@ Text Label 1150 6500 2    50   ~ 0
 PWM_Enable
 Text Label 7275 2600 0    50   ~ 0
 5V
+$Comp
+L Isolator:TLP291 U?
+U 1 1 6156BE0A
+P 875 3750
+F 0 "U?" H 875 4075 50  0000 C CNN
+F 1 "TLP291" H 875 3984 50  0000 C CNN
+F 2 "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm" H 675 3550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 875 3750 50  0001 L CNN
+	1    875  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615751E4
+P 425 3650
+F 0 "R?" V 218 3650 50  0000 C CNN
+F 1 "1k" V 309 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 355 3650 50  0001 C CNN
+F 3 "~" H 425 3650 50  0001 C CNN
+	1    425  3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6157887E
+P 575 3850
+F 0 "#PWR?" H 575 3600 50  0001 C CNN
+F 1 "GND1" H 580 3677 50  0000 C CNN
+F 2 "" H 575 3850 50  0001 C CNN
+F 3 "" H 575 3850 50  0001 C CNN
+	1    575  3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 61578E5E
+P 2100 1020
+F 0 "#PWR?" H 2100 770 50  0001 C CNN
+F 1 "GND1" H 2105 847 50  0000 C CNN
+F 2 "" H 2100 1020 50  0001 C CNN
+F 3 "" H 2100 1020 50  0001 C CNN
+	1    2100 1020
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61583121
+P 2100 1020
+F 0 "#FLG?" H 2100 1095 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 1193 50  0000 C CNN
+F 2 "" H 2100 1020 50  0001 C CNN
+F 3 "~" H 2100 1020 50  0001 C CNN
+	1    2100 1020
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615A56AF
+P 1175 3850
+F 0 "#PWR?" H 1175 3600 50  0001 C CNN
+F 1 "GND" H 1180 3677 50  0000 C CNN
+F 2 "" H 1175 3850 50  0001 C CNN
+F 3 "" H 1175 3850 50  0001 C CNN
+	1    1175 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 613CFCC9
+P 1625 3500
+F 0 "R5" H 1695 3546 50  0000 L CNN
+F 1 "56k" H 1695 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1555 3500 50  0001 C CNN
+F 3 "~" H 1625 3500 50  0001 C CNN
+	1    1625 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6162623B
+P 1625 3950
+F 0 "#PWR?" H 1625 3700 50  0001 C CNN
+F 1 "GND" H 1630 3777 50  0000 C CNN
+F 2 "" H 1625 3950 50  0001 C CNN
+F 3 "" H 1625 3950 50  0001 C CNN
+	1    1625 3950
+	1    0    0    -1  
+$EndComp
+Text Label 1625 3125 0    50   ~ 0
+Vcc
+Wire Wire Line
+	1625 3125 1625 3350
 $EndSCHEMATC
