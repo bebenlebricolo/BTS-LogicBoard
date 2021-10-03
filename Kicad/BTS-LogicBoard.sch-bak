@@ -209,8 +209,6 @@ Wire Wire Line
 Connection ~ 5225 2700
 Wire Wire Line
 	5225 2700 5475 2700
-Text Label 4225 2950 0    50   ~ 0
-Vcc
 $Comp
 L Device:R R12
 U 1 1 613C8E08
@@ -491,7 +489,7 @@ Text Label 4825 4525 0    50   ~ 0
 5V
 Text Label 4825 4875 0    50   ~ 0
 2.5V
-Text Label 4125 4525 2    50   ~ 0
+Text Label 3850 4525 2    50   ~ 0
 COMP-Out
 $Comp
 L Switch:SW_DPDT_x2 SW1
@@ -1155,7 +1153,7 @@ Text Label 8075 1425 0    50   ~ 0
 5V
 Text Label 7375 1775 2    50   ~ 0
 2.5V
-Text Label 7375 1425 2    50   ~ 0
+Text Label 7075 1425 2    50   ~ 0
 Inv_Fan_trigger
 Wire Wire Line
 	6675 1775 7125 1775
@@ -1179,8 +1177,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 7175 3125 50  0001 L C
 	1    7175 3125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6925 3125 6975 3125
 $Comp
 L Device:R R17
 U 1 1 61425D43
@@ -1231,17 +1227,6 @@ Text Label 6350 1175 0    50   ~ 0
 5V
 Wire Wire Line
 	6350 1175 6350 1300
-$Comp
-L Device:R R15
-U 1 1 6142D373
-P 6775 3125
-F 0 "R15" H 6845 3171 50  0000 L CNN
-F 1 "1k" H 6845 3080 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6705 3125 50  0001 C CNN
-F 3 "~" H 6775 3125 50  0001 C CNN
-	1    6775 3125
-	0    1    1    0   
-$EndComp
 Text Label 7750 2900 0    39   ~ 0
 FAN_TRIGGER
 Wire Notes Line
@@ -1563,4 +1548,44 @@ F 3 "~" H 9950 3900 50  0001 C CNN
 	1    9950 3900
 	-1   0    0    -1  
 $EndComp
+Text Label 4225 2950 0    50   ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 615AA731
+P 7300 1275
+F 0 "R?" V 7093 1275 50  0000 C CNN
+F 1 "1k" V 7184 1275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7230 1275 50  0001 C CNN
+F 3 "~" H 7300 1275 50  0001 C CNN
+	1    7300 1275
+	1    0    0    -1  
+$EndComp
+Text Label 7300 1125 0    50   ~ 0
+5V
+Wire Wire Line
+	7300 1425 7375 1425
+Wire Wire Line
+	7300 1425 7075 1425
+Connection ~ 7300 1425
+Wire Wire Line
+	6625 3125 6975 3125
+$Comp
+L Device:R R?
+U 1 1 615C55E7
+P 3975 4375
+F 0 "R?" V 3768 4375 50  0000 C CNN
+F 1 "1k" V 3859 4375 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3905 4375 50  0001 C CNN
+F 3 "~" H 3975 4375 50  0001 C CNN
+	1    3975 4375
+	1    0    0    -1  
+$EndComp
+Text Label 3975 4225 0    50   ~ 0
+5V
+Wire Wire Line
+	3850 4525 3975 4525
+Connection ~ 3975 4525
+Wire Wire Line
+	3975 4525 4125 4525
 $EndSCHEMATC

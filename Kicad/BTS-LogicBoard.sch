@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L BTS-LogicBoard:NCS2252SN2T1G U1
 U 1 1 613B3E2B
-P 4475 4925
-F 0 "U1" H 4475 5590 50  0000 C CNN
-F 1 "NCS2252SN2T1G" H 4475 5499 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4475 4925 50  0001 C CNN
-F 3 "" H 4475 4925 50  0001 C CNN
-	1    4475 4925
+P 4650 4925
+F 0 "U1" H 4650 5590 50  0000 C CNN
+F 1 "NCS2252SN2T1G" H 4650 5499 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4650 4925 50  0001 C CNN
+F 3 "" H 4650 4925 50  0001 C CNN
+	1    4650 4925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -250,69 +250,17 @@ F 3 "" H 2675 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
-U 1 1 613CD104
-P 2175 3300
-F 0 "R6" H 2245 3346 50  0000 L CNN
-F 1 "1k" H 2245 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2105 3300 50  0001 C CNN
-F 3 "~" H 2175 3300 50  0001 C CNN
-	1    2175 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2175 3450
-Text Label 2175 3150 0    50   ~ 0
-Vcc
-$Comp
-L Transistor_BJT:BC807 Q2
-U 1 1 613CDBEE
-P 2075 3650
-F 0 "Q2" H 2266 3604 50  0000 L CNN
-F 1 "BC807" H 2266 3695 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2275 3575 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 2075 3650 50  0001 L CNN
-	1    2075 3650
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 613CF470
-P 2175 3850
-F 0 "#PWR0108" H 2175 3600 50  0001 C CNN
-F 1 "GND" H 2180 3677 50  0000 C CNN
-F 2 "" H 2175 3850 50  0001 C CNN
-F 3 "" H 2175 3850 50  0001 C CNN
-	1    2175 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 613D0344
-P 1325 3650
-F 0 "R2" V 1118 3650 50  0000 C CNN
-F 1 "1k" V 1209 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1255 3650 50  0001 C CNN
-F 3 "~" H 1325 3650 50  0001 C CNN
-	1    1325 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 613D0976
-P 1625 3800
-F 0 "C3" H 1880 3810 50  0000 R CNN
-F 1 "100nF" H 1900 3915 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1663 3650 50  0001 C CNN
-F 3 "~" H 1625 3800 50  0001 C CNN
-	1    1625 3800
+P 900 3800
+F 0 "C3" H 1155 3810 50  0000 R CNN
+F 1 "100nF" H 1175 3915 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 938 3650 50  0001 C CNN
+F 3 "~" H 900 3800 50  0001 C CNN
+	1    900  3800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1475 3650 1625 3650
-Connection ~ 1625 3650
-Wire Wire Line
-	1625 3650 1875 3650
-Text Label 275  3650 2    50   ~ 0
+Text Label 900  3650 2    50   ~ 0
 Pump-On
 $Comp
 L Transistor_BJT:BC817 Q1
@@ -472,24 +420,24 @@ Wire Wire Line
 Connection ~ 3575 1000
 Text Label 3875 1000 0    50   ~ 0
 2.5V
-Text Label 4125 4875 2    50   ~ 0
+Text Label 4300 4875 2    50   ~ 0
 NE-Out
 $Comp
 L power:GND #PWR0113
 U 1 1 6140EF78
-P 4125 4675
-F 0 "#PWR0113" H 4125 4425 50  0001 C CNN
-F 1 "GND" V 4130 4547 50  0000 R CNN
-F 2 "" H 4125 4675 50  0001 C CNN
-F 3 "" H 4125 4675 50  0001 C CNN
-	1    4125 4675
+P 4300 4675
+F 0 "#PWR0113" H 4300 4425 50  0001 C CNN
+F 1 "GND" V 4305 4547 50  0000 R CNN
+F 2 "" H 4300 4675 50  0001 C CNN
+F 3 "" H 4300 4675 50  0001 C CNN
+	1    4300 4675
 	0    1    1    0   
 $EndComp
-Text Label 4825 4525 0    50   ~ 0
+Text Label 5000 4525 0    50   ~ 0
 5V
-Text Label 4825 4875 0    50   ~ 0
+Text Label 5000 4875 0    50   ~ 0
 2.5V
-Text Label 4125 4525 2    50   ~ 0
+Text Label 4025 4525 2    50   ~ 0
 COMP-Out
 $Comp
 L Switch:SW_DPDT_x2 SW1
@@ -761,14 +709,14 @@ Wire Notes Line
 	11125 3725 11125 4025
 Wire Notes Line
 	11125 4025 10600 4025
-Text Notes 5075 4800 0    50   ~ 0
+Text Notes 5250 4800 0    50   ~ 0
 Output comparator \nused to straighten up \nand bufferise the \nNE555D output
 Wire Notes Line
-	4825 4225 5075 4225
+	5000 4225 5250 4225
 Wire Notes Line
-	5075 4225 5075 5075
+	5250 4225 5250 5075
 Wire Notes Line
-	5075 5075 4825 5075
+	5250 5075 5000 5075
 Text Label 2850 6550 2    50   ~ 0
 HIP_DISABLE
 Wire Wire Line
@@ -1153,7 +1101,7 @@ Text Label 8075 1425 0    50   ~ 0
 5V
 Text Label 7375 1775 2    50   ~ 0
 2.5V
-Text Label 7375 1425 2    50   ~ 0
+Text Label 7075 1425 2    50   ~ 0
 Inv_Fan_trigger
 Wire Wire Line
 	6675 1775 7125 1775
@@ -1177,8 +1125,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 7175 3125 50  0001 L C
 	1    7175 3125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6925 3125 6975 3125
 $Comp
 L Device:R R17
 U 1 1 61425D43
@@ -1229,17 +1175,6 @@ Text Label 6350 1175 0    50   ~ 0
 5V
 Wire Wire Line
 	6350 1175 6350 1300
-$Comp
-L Device:R R15
-U 1 1 6142D373
-P 6775 3125
-F 0 "R15" H 6845 3171 50  0000 L CNN
-F 1 "1k" H 6845 3080 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6705 3125 50  0001 C CNN
-F 3 "~" H 6775 3125 50  0001 C CNN
-	1    6775 3125
-	0    1    1    0   
-$EndComp
 Text Label 7750 2900 0    39   ~ 0
 FAN_TRIGGER
 Wire Notes Line
@@ -1360,88 +1295,82 @@ $EndComp
 Text Label 8450 5600 2    50   ~ 0
 Pump-On
 Wire Notes Line
-	-50  3875 25   3875
+	600  3525 675  3525
 Wire Notes Line
-	25   3875 25   3775
+	675  3525 675  3425
 Wire Notes Line
-	25   3775 125  3775
+	675  3425 775  3425
 Wire Notes Line
-	125  3775 125  3875
+	775  3425 775  3525
 Wire Notes Line
-	125  3875 225  3875
-Text Notes 25   3775 0    50   ~ 0
+	775  3525 875  3525
+Text Notes 675  3425 0    50   ~ 0
 On
-Text Notes 125  3875 0    50   ~ 0
+Text Notes 775  3525 0    50   ~ 0
 Off
 $Comp
 L Transistor_BJT:BC817 Q6
 U 1 1 614147CA
-P 1650 4650
-F 0 "Q6" H 1841 4696 50  0000 L CNN
-F 1 "BC817" H 1841 4605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1850 4575 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 1650 4650 50  0001 L CNN
-	1    1650 4650
+P 2075 4725
+F 0 "Q6" H 2266 4771 50  0000 L CNN
+F 1 "BC817" H 2266 4680 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2275 4650 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 2075 4725 50  0001 L CNN
+	1    2075 4725
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 614147D0
-P 1250 4650
-F 0 "R18" V 1043 4650 50  0000 C CNN
-F 1 "1k" V 1134 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1180 4650 50  0001 C CNN
-F 3 "~" H 1250 4650 50  0001 C CNN
-	1    1250 4650
+P 1675 4725
+F 0 "R18" V 1468 4725 50  0000 C CNN
+F 1 "1k" V 1559 4725 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1605 4725 50  0001 C CNN
+F 3 "~" H 1675 4725 50  0001 C CNN
+	1    1675 4725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 4650 1450 4650
+	1825 4725 1875 4725
 $Comp
 L Device:R R19
 U 1 1 614147E4
-P 1450 4800
-F 0 "R19" H 1380 4754 50  0000 R CNN
-F 1 "56k" H 1380 4845 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1380 4800 50  0001 C CNN
-F 3 "~" H 1450 4800 50  0001 C CNN
-	1    1450 4800
+P 1875 4875
+F 0 "R19" H 1805 4829 50  0000 R CNN
+F 1 "56k" H 1805 4920 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1805 4875 50  0001 C CNN
+F 3 "~" H 1875 4875 50  0001 C CNN
+	1    1875 4875
 	-1   0    0    1   
 $EndComp
-Connection ~ 1450 4650
+Connection ~ 1875 4725
 $Comp
 L power:GND #PWR013
 U 1 1 614147EB
-P 1450 4950
-F 0 "#PWR013" H 1450 4700 50  0001 C CNN
-F 1 "GND" H 1455 4777 50  0000 C CNN
-F 2 "" H 1450 4950 50  0001 C CNN
-F 3 "" H 1450 4950 50  0001 C CNN
-	1    1450 4950
+P 1875 5025
+F 0 "#PWR013" H 1875 4775 50  0001 C CNN
+F 1 "GND" H 1880 4852 50  0000 C CNN
+F 2 "" H 1875 5025 50  0001 C CNN
+F 3 "" H 1875 5025 50  0001 C CNN
+	1    1875 5025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 4950 1750 4950
+	1875 5025 2175 5025
 Wire Wire Line
-	1750 4950 1750 4850
-Connection ~ 1450 4950
-Text Label 1100 4650 2    50   ~ 0
+	2175 5025 2175 4925
+Connection ~ 1875 5025
+Text Label 1525 4725 2    50   ~ 0
 HIP_DISABLE
 Wire Wire Line
-	1475 3650 1475 4300
-Wire Wire Line
-	1475 4450 1750 4450
-Connection ~ 1475 3650
-Text Notes 1850 5050 0    39   ~ 0
+	1900 4525 2175 4525
+Text Notes 2275 5125 0    39   ~ 0
 The HIP disable signal (from mechanical switch)\noverrides the Pump-On signal, so that PWM is shut\ndown and fans will still run for a while before shutting\ndown as well
 Wire Wire Line
-	2175 3450 2975 3450
+	1900 4375 2650 4375
 Wire Wire Line
-	1475 4300 2225 4300
-Connection ~ 1475 4300
-Wire Wire Line
-	1475 4300 1475 4450
-Text Label 2225 4300 0    50   ~ 0
+	1900 4375 1900 4525
+Text Label 2650 4375 0    50   ~ 0
 PWM_Enable
 Text Label 1150 6500 2    50   ~ 0
 PWM_Enable
@@ -1450,34 +1379,34 @@ Text Label 7275 2600 0    50   ~ 0
 $Comp
 L Isolator:TLP291 U4
 U 1 1 6156BE0A
-P 875 3750
-F 0 "U4" H 875 4075 50  0000 C CNN
-F 1 "TLP291" H 875 3984 50  0000 C CNN
-F 2 "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm" H 675 3550 50  0001 L CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 875 3750 50  0001 L CNN
-	1    875  3750
+P 1500 3750
+F 0 "U4" H 1500 4075 50  0000 C CNN
+F 1 "TLP291" H 1500 3984 50  0000 C CNN
+F 2 "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm" H 1300 3550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 1500 3750 50  0001 L CNN
+	1    1500 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 615751E4
-P 425 3650
-F 0 "R20" V 218 3650 50  0000 C CNN
-F 1 "1k" V 309 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 355 3650 50  0001 C CNN
-F 3 "~" H 425 3650 50  0001 C CNN
-	1    425  3650
+P 1050 3650
+F 0 "R20" V 843 3650 50  0000 C CNN
+F 1 "1k" V 934 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 980 3650 50  0001 C CNN
+F 3 "~" H 1050 3650 50  0001 C CNN
+	1    1050 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND1 #PWR0109
 U 1 1 6157887E
-P 575 3850
-F 0 "#PWR0109" H 575 3600 50  0001 C CNN
-F 1 "GND1" H 580 3677 50  0000 C CNN
-F 2 "" H 575 3850 50  0001 C CNN
-F 3 "" H 575 3850 50  0001 C CNN
-	1    575  3850
+P 1200 3850
+F 0 "#PWR0109" H 1200 3600 50  0001 C CNN
+F 1 "GND1" H 1205 3677 50  0000 C CNN
+F 2 "" H 1200 3850 50  0001 C CNN
+F 3 "" H 1200 3850 50  0001 C CNN
+	1    1200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1505,40 +1434,14 @@ $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 615A56AF
-P 1175 3850
-F 0 "#PWR0123" H 1175 3600 50  0001 C CNN
-F 1 "GND" H 1180 3677 50  0000 C CNN
-F 2 "" H 1175 3850 50  0001 C CNN
-F 3 "" H 1175 3850 50  0001 C CNN
-	1    1175 3850
+P 1800 3850
+F 0 "#PWR0123" H 1800 3600 50  0001 C CNN
+F 1 "GND" H 1805 3677 50  0000 C CNN
+F 2 "" H 1800 3850 50  0001 C CNN
+F 3 "" H 1800 3850 50  0001 C CNN
+	1    1800 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 613CFCC9
-P 1625 3500
-F 0 "R5" H 1695 3546 50  0000 L CNN
-F 1 "56k" H 1695 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1555 3500 50  0001 C CNN
-F 3 "~" H 1625 3500 50  0001 C CNN
-	1    1625 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 6162623B
-P 1625 3950
-F 0 "#PWR0124" H 1625 3700 50  0001 C CNN
-F 1 "GND" H 1630 3777 50  0000 C CNN
-F 2 "" H 1625 3950 50  0001 C CNN
-F 3 "" H 1625 3950 50  0001 C CNN
-	1    1625 3950
-	1    0    0    -1  
-$EndComp
-Text Label 1625 3125 0    50   ~ 0
-Vcc
-Wire Wire Line
-	1625 3125 1625 3350
 $Comp
 L power:GND1 #PWR0125
 U 1 1 61647759
@@ -1563,4 +1466,109 @@ F 3 "~" H 9950 3900 50  0001 C CNN
 $EndComp
 Text Label 4225 2950 0    50   ~ 0
 5V
+$Comp
+L Device:R R?
+U 1 1 615AA731
+P 7300 1275
+F 0 "R?" V 7093 1275 50  0000 C CNN
+F 1 "1k" V 7184 1275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7230 1275 50  0001 C CNN
+F 3 "~" H 7300 1275 50  0001 C CNN
+	1    7300 1275
+	1    0    0    -1  
+$EndComp
+Text Label 7300 1125 0    50   ~ 0
+5V
+Wire Wire Line
+	7300 1425 7375 1425
+Wire Wire Line
+	7300 1425 7075 1425
+Connection ~ 7300 1425
+Wire Wire Line
+	6625 3125 6975 3125
+$Comp
+L Device:R R?
+U 1 1 615C55E7
+P 4150 4375
+F 0 "R?" V 3943 4375 50  0000 C CNN
+F 1 "1k" V 4034 4375 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4080 4375 50  0001 C CNN
+F 3 "~" H 4150 4375 50  0001 C CNN
+	1    4150 4375
+	1    0    0    -1  
+$EndComp
+Text Label 4150 4225 0    50   ~ 0
+5V
+Wire Wire Line
+	4025 4525 4150 4525
+Wire Wire Line
+	4150 4525 4300 4525
+Connection ~ 4150 4525
+$Comp
+L power:GND1 #PWR?
+U 1 1 61612325
+P 900 3950
+F 0 "#PWR?" H 900 3700 50  0001 C CNN
+F 1 "GND1" H 905 3777 50  0000 C CNN
+F 2 "" H 900 3950 50  0001 C CNN
+F 3 "" H 900 3950 50  0001 C CNN
+	1    900  3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3450 1800 3650
+Wire Wire Line
+	2175 3150 1800 3150
+$Comp
+L Device:R R?
+U 1 1 615F212F
+P 1800 3300
+F 0 "R?" H 1870 3346 50  0000 L CNN
+F 1 "1k" H 1870 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1730 3300 50  0001 C CNN
+F 3 "~" H 1800 3300 50  0001 C CNN
+	1    1800 3300
+	1    0    0    1   
+$EndComp
+Connection ~ 2175 3450
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 615F157A
+P 2075 3650
+F 0 "Q?" H 2266 3696 50  0000 L CNN
+F 1 "BC817" H 2266 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2275 3575 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 2075 3650 50  0001 L CNN
+	1    2075 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 3450 2975 3450
+$Comp
+L power:GND #PWR0108
+U 1 1 613CF470
+P 2175 3850
+F 0 "#PWR0108" H 2175 3600 50  0001 C CNN
+F 1 "GND" H 2180 3677 50  0000 C CNN
+F 2 "" H 2175 3850 50  0001 C CNN
+F 3 "" H 2175 3850 50  0001 C CNN
+	1    2175 3850
+	1    0    0    -1  
+$EndComp
+Text Label 2175 3150 0    50   ~ 0
+Vcc
+$Comp
+L Device:R R6
+U 1 1 613CD104
+P 2175 3300
+F 0 "R6" H 2245 3346 50  0000 L CNN
+F 1 "1k" H 2245 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2105 3300 50  0001 C CNN
+F 3 "~" H 2175 3300 50  0001 C CNN
+	1    2175 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 3650
+Wire Wire Line
+	1800 3650 1875 3650
 $EndSCHEMATC
