@@ -499,7 +499,7 @@ U 1 1 6141E2CD
 P 9950 1550
 F 0 "SW1" H 9950 1750 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 9950 750 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 1550 50  0001 C CNN
+F 2 "BTS-LogicBoard:PinSocket_2x03_P2.54mm_Vertical_DPDT_Special" H 9950 1550 50  0001 C CNN
 F 3 "~" H 9950 1550 50  0001 C CNN
 	1    9950 1550
 	-1   0    0    -1  
@@ -510,7 +510,7 @@ U 2 1 6141EC69
 P 9950 2000
 F 0 "SW1" H 9950 1775 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 9950 1650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 2000 50  0001 C CNN
+F 2 "BTS-LogicBoard:PinSocket_2x03_P2.54mm_Vertical_DPDT_Special" H 9950 2000 50  0001 C CNN
 F 3 "~" H 9950 2000 50  0001 C CNN
 	2    9950 2000
 	-1   0    0    -1  
@@ -565,22 +565,11 @@ Wire Wire Line
 	10150 1550 10625 1550
 $Comp
 L Switch:SW_DPDT_x2 SW2
-U 1 1 6143E0F8
-P 9950 3900
-F 0 "SW2" H 9950 4100 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 9950 3075 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 3900 50  0001 C CNN
-F 3 "~" H 9950 3900 50  0001 C CNN
-	1    9950 3900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_DPDT_x2 SW2
 U 2 1 6143E0FE
 P 9950 4350
 F 0 "SW2" H 9950 4125 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 9950 3975 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9950 4350 50  0001 C CNN
+F 2 "BTS-LogicBoard:PinSocket_2x03_P2.54mm_Vertical_DPDT_Special" H 9950 4350 50  0001 C CNN
 F 3 "~" H 9950 4350 50  0001 C CNN
 	2    9950 4350
 	-1   0    0    -1  
@@ -1553,14 +1542,25 @@ Vcc
 Wire Wire Line
 	1625 3125 1625 3350
 $Comp
-L power:GND1 #PWR?
+L power:GND1 #PWR0125
 U 1 1 61647759
 P 8450 5700
-F 0 "#PWR?" H 8450 5450 50  0001 C CNN
+F 0 "#PWR0125" H 8450 5450 50  0001 C CNN
 F 1 "GND1" H 8455 5527 50  0000 C CNN
 F 2 "" H 8450 5700 50  0001 C CNN
 F 3 "" H 8450 5700 50  0001 C CNN
 	1    8450 5700
 	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 6143E0F8
+P 9950 3900
+F 0 "SW2" H 9950 4100 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 9950 3075 50  0000 C CNN
+F 2 "BTS-LogicBoard:PinSocket_2x03_P2.54mm_Vertical_DPDT_Special" H 9950 3900 50  0001 C CNN
+F 3 "~" H 9950 3900 50  0001 C CNN
+	1    9950 3900
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
