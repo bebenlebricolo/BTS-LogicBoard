@@ -209,8 +209,6 @@ Wire Wire Line
 Connection ~ 5225 2700
 Wire Wire Line
 	5225 2700 5475 2700
-Text Label 4225 2950 0    50   ~ 0
-Vcc
 $Comp
 L Device:R R12
 U 1 1 613C8E08
@@ -1563,4 +1561,6 @@ F 3 "~" H 9950 3900 50  0001 C CNN
 	1    9950 3900
 	-1   0    0    -1  
 $EndComp
+Text Label 4225 2950 0    50   ~ 0
+5V
 $EndSCHEMATC
