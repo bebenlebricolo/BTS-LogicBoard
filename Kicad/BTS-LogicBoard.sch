@@ -776,7 +776,7 @@ U 1 1 616718F2
 P 1550 6650
 F 0 "U3" H 1325 6925 50  0000 C CNN
 F 1 "74HC1GU04" H 1300 6850 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 1550 6650 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1550 6650 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC1GU04.pdf" H 1550 6650 50  0001 C CNN
 	1    1550 6650
 	1    0    0    -1  
