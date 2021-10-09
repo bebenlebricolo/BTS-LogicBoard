@@ -1,4 +1,11 @@
-19212176465260254
+19217078078617254
+BTS-LogicBoard
+2132230-4
+
+
+0
+4
+4
 BTS-LogicBoard
 Molex_MicroLock_1.25_01x06
 
@@ -6,6 +13,20 @@ Molex_MicroLock_1.25_01x06
 0
 8
 7
+BTS-LogicBoard
+PinSocket_2x03_P2.54mm_Vertical_DPDT_Special
+Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+BTS-LogicBoard
+TE_EP_01x04_2132230-4
+
+
+0
+4
+4
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
