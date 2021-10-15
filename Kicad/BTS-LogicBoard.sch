@@ -697,7 +697,7 @@ F 3 "" H 4300 6450 50  0001 C CNN
 $EndComp
 Text Label 5275 6300 0    50   ~ 0
 VCC
-Text Label 5275 6650 0    50   ~ 0
+Text Label 5575 6650 0    50   ~ 0
 2.5V
 Text Notes 3275 7450 0    39   ~ 0
 This configuration allows the capacitor\nto charge up quickly when PWM is enabled (charged up in \nfew µseconds) and discharge very slowly through the\n390k resistor. Like so, cooling fans will stay on for about\n2 minutes after the modules are shut off, so that we are \ntaking care of the thermal inertia of the modules.
@@ -953,8 +953,8 @@ $Comp
 L Device:C C12
 U 1 1 6180F799
 P 5200 6800
-F 0 "C12" H 5000 6825 50  0000 L CNN
-F 1 "100nF" H 4950 6750 50  0000 L CNN
+F 0 "C12" H 5325 6825 50  0000 L CNN
+F 1 "100nF" H 5325 6725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5238 6650 50  0001 C CNN
 F 3 "~" H 5200 6800 50  0001 C CNN
 	1    5200 6800
@@ -975,8 +975,8 @@ $Comp
 L Device:C C11
 U 1 1 61812760
 P 5200 6150
-F 0 "C11" H 5000 6175 50  0000 L CNN
-F 1 "100nF" H 4950 6100 50  0000 L CNN
+F 0 "C11" H 4925 6175 50  0000 L CNN
+F 1 "100nF" H 4875 6075 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5238 6000 50  0001 C CNN
 F 3 "~" H 5200 6150 50  0001 C CNN
 	1    5200 6150
@@ -1496,4 +1496,15 @@ Inhibit
 Text Label 9925 5750 2    39   ~ 0
 Inhibit
 NoConn ~ 9925 5750
+$Comp
+L Device:R R19
+U 1 1 6169CBB7
+P 5425 6650
+F 0 "R19" V 5600 6650 50  0000 C CNN
+F 1 "4.7k" V 5525 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5355 6650 50  0001 C CNN
+F 3 "~" H 5425 6650 50  0001 C CNN
+	1    5425 6650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
