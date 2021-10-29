@@ -1267,9 +1267,11 @@ L Connector_Generic:Conn_01x03 J2
 U 1 1 61AC6330
 P 8000 6000
 F 0 "J2" H 8080 6042 50  0000 L CNN
-F 1 "Conn_01x03" H 8080 5951 50  0000 L CNN
+F 1 "MolexMicroClasp0310" H 8080 5951 50  0000 L CNN
 F 2 "BTS-LogicBoard:559350310" H 8000 6000 50  0001 C CNN
 F 3 "~" H 8000 6000 50  0001 C CNN
+F 4 "55935-0310" H 8000 6000 50  0001 C CNN "PartNumber"
+F 5 "Molex MicroClasp 3 pins, 3Amps" H 8000 6000 50  0001 C CNN "Series"
 	1    8000 6000
 	1    0    0    -1  
 $EndComp
@@ -1384,6 +1386,7 @@ F 0 "J4" H 9825 1792 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9825 1701 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF11-6DP-2DSA_2x03_P2.00mm_Vertical" H 9775 1475 50  0001 C CNN
 F 3 "~" H 9775 1475 50  0001 C CNN
+F 4 "DF11-6DP-2DSA(08)" H 9800 1250 50  0000 C CNN "PartNumber"
 	1    9775 1475
 	1    0    0    -1  
 $EndComp
@@ -1395,6 +1398,7 @@ F 0 "J1" H 9625 4742 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9625 4651 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF11-6DP-2DSA_2x03_P2.00mm_Vertical" H 9575 4425 50  0001 C CNN
 F 3 "~" H 9575 4425 50  0001 C CNN
+F 4 "DF11-6DP-2DSA(08)" H 9600 4175 50  0000 C CNN "PartNumber"
 	1    9575 4425
 	1    0    0    -1  
 $EndComp
@@ -1507,4 +1511,6 @@ F 3 "~" H 5425 6650 50  0001 C CNN
 	1    5425 6650
 	0    -1   -1   0   
 $EndComp
+Text Notes 9100 2500 0    50   ~ 0
+Note : this design above has a big flaw : \nit makes the control PWM go up and down the\nwires of the switching mecanism.\nThis might cause noticeable inductance-based \ndisturbances and probably some signal reflection\nas well, as this thing should be running above 1 MHz
 $EndSCHEMATC

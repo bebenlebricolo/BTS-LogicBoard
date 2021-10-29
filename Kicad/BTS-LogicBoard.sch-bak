@@ -1384,6 +1384,7 @@ F 0 "J4" H 9825 1792 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9825 1701 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF11-6DP-2DSA_2x03_P2.00mm_Vertical" H 9775 1475 50  0001 C CNN
 F 3 "~" H 9775 1475 50  0001 C CNN
+F 4 "DF11-6DP-2DSA(08)" H 9800 1250 50  0000 C CNN "PartNumber"
 	1    9775 1475
 	1    0    0    -1  
 $EndComp
@@ -1395,6 +1396,7 @@ F 0 "J1" H 9625 4742 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9625 4651 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF11-6DP-2DSA_2x03_P2.00mm_Vertical" H 9575 4425 50  0001 C CNN
 F 3 "~" H 9575 4425 50  0001 C CNN
+F 4 "DF11-6DP-2DSA(08)" H 9600 4175 50  0000 C CNN "PartNumber"
 	1    9575 4425
 	1    0    0    -1  
 $EndComp
@@ -1497,10 +1499,10 @@ Text Label 9925 5750 2    39   ~ 0
 Inhibit
 NoConn ~ 9925 5750
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 6169CBB7
 P 5425 6650
-F 0 "R?" V 5600 6650 50  0000 C CNN
+F 0 "R19" V 5600 6650 50  0000 C CNN
 F 1 "4.7k" V 5525 6650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5355 6650 50  0001 C CNN
 F 3 "~" H 5425 6650 50  0001 C CNN
