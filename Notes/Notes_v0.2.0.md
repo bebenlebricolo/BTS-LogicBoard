@@ -5,6 +5,7 @@
   - [PWM controller speed is lower than the previous iteration, but this is an easyfix](#pwm-controller-speed-is-lower-than-the-previous-iteration-but-this-is-an-easyfix)
   - [Potentiometer wiring is reversed](#potentiometer-wiring-is-reversed)
   - [Output PWM goes up into the switch and goes down again on the board](#output-pwm-goes-up-into-the-switch-and-goes-down-again-on-the-board)
+  - [When board is disabled (no input signal), output is still driven by the comparator](#when-board-is-disabled-no-input-signal-output-is-still-driven-by-the-comparator)
 
 # Notes on board prototype version v0.2.0
 This board prototype was called 'board-v1.1' earlier and I decided to rename it as v0.2.0 as semantically speaking, this board is also still a prototype (as the v0.1.0 was).
@@ -42,3 +43,7 @@ The logic of the PWM comparator is reversed, this means that turning the knob to
 ## Output PWM goes up into the switch and goes down again on the board
 This has not shown to be an issue in itself while testing the board, however mechanically rerouting the PWM signal within the switch makes it go back and forth in non-isolated wires. If the wire length increases, it can easily pick up some ambient noise (acting as an antenna) and we might also observe signal reflection because we are expecting to be working around 1MHz.
 A solution may consist in switching the signal using mosfet as unidirectional switches, without the signal leaving the board and making a loop.
+
+## When board is disabled (no input signal), output is still driven by the comparator
+I forgot to add an output protection layer that prevents the board from outputing a 100% duty cycle even when the NE555 is disabled.
+This is due to the fact that the output stage is directly driven by the output comparator, and in some configurations lowering the potentiometer level low enough eratically triggers the comparator, which in turns generate a weird looking "PWM" signal (aperiodic). This stray output signal might cause some issues as it will trigger the power boards anyway, but without any cooling (fans are turned off in such a configuration).
