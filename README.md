@@ -1,6 +1,20 @@
+# Index
+- [BTS-LogicBoard](#bts-logicboard)
+- [Features](#features)
+
 # BTS-LogicBoard
 Beer thermoregulation system logic board.
-This board is meant to provide a PWM control signal to the [BTS-MainBoard-Control](https://github.com/bebenlebricolo/BTS-MainBoard-Control) board and is driven by an external "enable" signal, which is a signal coming from an external pump driver (at least in the first revisions).
+This board is meant to provide a PWM control signal to the [BTS-MainBoard-Control](https://github.com/bebenlebricolo/BTS-MainBoard-Control) board and will be driven by different input sources :
+  1. External input mechanisms, implying and external trigger signal and a mechanical user interface such as switches and potentiometers.
+  2. Temperature sensor(s) using thermistor based sensors
+
+## 1. External triggering signal specificities
+The later option was the first the be developped as it allowed to use an external regulation device as the triggering signal source (using a different power supply).
+The input triggering signal is either *ON* or *OFF*.
+As a consequence, we also need to get the "polarity" information, tells the system to warm up or cool down the thermal fluid.
+
+## 2. Automatic temperature regulation using temperature sensors
+This option
 
 This board is envisioned as a starting point as it only embeds generic electronic devices, meaning no code at all.
 I've done this on purpose, to keep things relatively simple and eliminating the need to iterate over software revisions, bug fixes, etc.
