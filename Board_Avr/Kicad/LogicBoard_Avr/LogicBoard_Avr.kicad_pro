@@ -324,6 +324,18 @@
     [
       "0e84d415-16d7-4f4e-ab35-e58625cd37e0",
       "MechanicalUserInterface"
+    ],
+    [
+      "eb804d6f-f145-402d-b229-a6a7cac1323a",
+      "Clocking"
+    ],
+    [
+      "543ff0e9-1b50-4e35-9a5a-5e315a9404b1",
+      "PowerRegulation"
+    ],
+    [
+      "f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09",
+      "PowerBoardLink"
     ]
   ],
   "text_variables": {}
