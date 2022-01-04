@@ -336,6 +336,10 @@
     [
       "f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09",
       "PowerBoardLink"
+    ],
+    [
+      "b8576b39-1899-434e-a216-d803d9a57b8b",
+      "ExternalInterface"
     ]
   ],
   "text_variables": {}
