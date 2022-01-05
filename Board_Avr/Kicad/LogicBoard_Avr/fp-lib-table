@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "BTS-LogicBoard")(type "KiCad")(uri "/home/groben/Documents/Repos/BeerThermoregulationSystem/BTS-LogicBoard/Board_Avr/Kicad/Libraries/BTS-LogicBoard.pretty")(options "")(descr ""))
+)
