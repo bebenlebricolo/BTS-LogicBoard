@@ -2487,6 +2487,24 @@
     (path "/b2a07428-2d70-4877-bb9f-f602752b7d1e"
       (reference "SW1") (unit 1) (value "Reset switch") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
     )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/6621da27-6482-4456-8076-5c7046ae9d96"
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/b16702de-75f7-4533-80a8-662fe8bb700a"
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/e750cc1b-097a-474a-83bc-cd9133058879"
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/21b7c3f4-7405-49f9-9b7f-f120204c124d"
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/dcd0819f-f417-4d32-aecf-843f6f08bfa4"
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f7bab2a7-6dbd-496a-8aa4-c4dda7ee3f09/8c66260c-ff25-419b-86cf-d421f908454b"
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/6c2d26bc-6eca-436c-8025-79f817bf57d6"
       (reference "U1") (unit 1) (value "ATmega328PB-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
     )
