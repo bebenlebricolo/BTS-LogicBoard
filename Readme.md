@@ -8,6 +8,9 @@ This board is meant to provide a PWM control signal to the [BTS-MainBoard-Contro
   1. External input mechanisms, implying and external trigger signal and a mechanical user interface such as switches and potentiometers.
   2. Temperature sensor(s) using thermistor based sensors
 
+![Screenshot V0.3.0](Documentation/Screenshots/LogicBoard_Avr.V0.3.0.png)
+![Screenshot V0.3.0](Documentation/Screenshots/LogicBoard_Avr.V0.3.0_back.png)
+
 ## 1. External triggering signal specificities
 The later option was the first the be developped as it allowed to use an external regulation device as the triggering signal source (using a different power supply).
 The input triggering signal is either *ON* or *OFF*.
