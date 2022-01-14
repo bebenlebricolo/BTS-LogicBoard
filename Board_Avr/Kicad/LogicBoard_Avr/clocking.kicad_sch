@@ -531,7 +531,7 @@
     (uuid 0e8d0115-85bd-4552-b987-d7d86b32758b)
     (property "Reference" "Y1" (id 0) (at 137.16 94.4331 0))
     (property "Value" "ABLS-20.000MHz-16-A-4-H-T" (id 1) (at 137.16 97.2082 0))
-    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD" (id 2) (at 137.16 100.965 0)
+    (property "Footprint" "BTS-LogicBoard:Crystal_SMD_TH_Combo_HC49-SD" (id 2) (at 137.16 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 100.965 0)

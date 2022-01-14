@@ -2531,7 +2531,7 @@
       (reference "U2") (unit 1) (value "TLP291") (footprint "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm")
     )
     (path "/543ff0e9-1b50-4e35-9a5a-5e315a9404b1/167ec743-c716-417d-83ef-93cb1272bbed"
-      (reference "U3") (unit 1) (value "TLV1117-33IDCYRG3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U3") (unit 1) (value "NCP603SN330T1G") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
     )
     (path "/543ff0e9-1b50-4e35-9a5a-5e315a9404b1/c57a6675-9bb9-4e0e-8977-fc8526f3b2fe"
       (reference "U4") (unit 1) (value "LM1117-5.0") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
@@ -2540,7 +2540,7 @@
       (reference "X1") (unit 1) (value "ASV-12.000MHZ-EJ-T") (footprint "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm")
     )
     (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/0e8d0115-85bd-4552-b987-d7d86b32758b"
-      (reference "Y1") (unit 1) (value "ABLS-20.000MHz-16-A-4-H-T") (footprint "Crystal:Crystal_SMD_HC49-SD")
+      (reference "Y1") (unit 1) (value "ABLS-20.000MHz-16-A-4-H-T") (footprint "BTS-LogicBoard:Crystal_SMD_TH_Combo_HC49-SD")
     )
   )
 )
