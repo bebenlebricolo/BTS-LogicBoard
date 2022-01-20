@@ -1,4 +1,4 @@
-19846527452710879
+19848170127518717
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -136,6 +136,13 @@ BTS-LogicBoard
 TE_EP_01x04_2132230-4
 
 
+0
+4
+4
+BTS-LogicBoard
+TLP291-SOIC4
+SOIC, 4 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 4
 4

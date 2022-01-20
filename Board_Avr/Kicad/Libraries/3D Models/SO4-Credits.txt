@@ -1,0 +1,5 @@
+This SO4 package for optoisolators/optocouplers was designed and realized by "singlefonts" user of GrabCad community.
+Here is the link to the package : https://grabcad.com/library/package-so4-1
+
+I could not find proper licensing terms, so I'm using it like this but many thanks to him for this package !
+
