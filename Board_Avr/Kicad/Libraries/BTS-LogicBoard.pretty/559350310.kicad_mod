@@ -1,6 +1,6 @@
 (footprint "559350310" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D81AA2)
+  (tedit 61E9345B)
   (attr through_hole)
   (fp_text reference "REF**" (at 2.25 -5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -46,13 +46,8 @@
   (pad "2" thru_hole circle (at 2.000001 0) (size 1.15 1.15) (drill 0.8) (layers *.Cu *.Mask) (tstamp f0ff0792-4d97-4881-9b9c-759645b25c42))
   (pad "3" thru_hole circle (at 4 0) (size 1.15 1.15) (drill 0.8) (layers *.Cu *.Mask) (tstamp cd8c52aa-8c0c-412f-acf6-e52a5f408f1c))
   (model "../Libraries/BTS-LogicBoard.pretty/559350310.stp"
-    (offset (xyz 2 2 0.2))
+    (offset (xyz 2 2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 180))
-  )
-  (model "/home/groben/Documents/Repos/BeerThermoregulationSystem/BTS-LogicBoard/Board_Avr/Kicad/Libraries/BTS-LogicBoard.pretty/559350310.stp" hide
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
   )
 )
