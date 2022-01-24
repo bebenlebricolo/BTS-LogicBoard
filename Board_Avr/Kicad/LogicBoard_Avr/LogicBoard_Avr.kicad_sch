@@ -1936,7 +1936,7 @@
     (uuid dfc325fb-8de1-4eb3-b870-505e15a9d3fb)
     (property "Reference" "L1" (id 0) (at 48.768 59.4065 90))
     (property "Value" "BLM18AG151SN1D" (id 1) (at 48.768 61.595 90))
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 48.768 64.77 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 48.768 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.rs-online.com/b10d/0900766b811b5866.pdf" (id 3) (at 48.768 64.77 0)
@@ -2471,7 +2471,7 @@
       (reference "JP7") (unit 1) (value "HB_BLO_ATM328_JP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/dfc325fb-8de1-4eb3-b870-505e15a9d3fb"
-      (reference "L1") (unit 1) (value "BLM18AG151SN1D") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "L1") (unit 1) (value "BLM18AG151SN1D") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/0e84d415-16d7-4f4e-ab35-e58625cd37e0/f4fe6211-c022-43dc-9880-a1f7b18867d5"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
