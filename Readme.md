@@ -11,13 +11,14 @@ This board is meant to provide a PWM control signal to the [BTS-MainBoard-Contro
 ![Screenshot V0.3.0](Documentation/Screenshots/LogicBoard_Avr.V0.3.0.png)
 ![Screenshot V0.3.0](Documentation/Screenshots/LogicBoard_Avr.V0.3.0_back.png)
 
+For more details on the current implementation, see [Notes of version 0.3.0](Notes/Notes_v0.3.0.md).
+
 ## 1. External triggering signal specificities
 The later option was the first the be developped as it allowed to use an external regulation device as the triggering signal source (using a different power supply).
 The input triggering signal is either *ON* or *OFF*.
 As a consequence, we also need to get the "polarity" information, tells the system to warm up or cool down the thermal fluid.
 
 ## 2. Automatic temperature regulation using temperature sensors
-This option
 
 This board is envisioned as a starting point as it only embeds generic electronic devices, meaning no code at all.
 I've done this on purpose, to keep things relatively simple and eliminating the need to iterate over software revisions, bug fixes, etc.
