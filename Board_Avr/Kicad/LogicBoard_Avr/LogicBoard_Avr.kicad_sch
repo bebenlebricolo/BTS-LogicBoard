@@ -2338,12 +2338,6 @@
     (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/e10ac050-e52c-403b-bc35-3cce4705d88e"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
-    (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/b7226a90-42a2-4c42-945e-3f162ede5c5c"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/6a5d8ec0-7bde-40eb-aa66-2414d18754c7"
-      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
-    )
     (path "/543ff0e9-1b50-4e35-9a5a-5e315a9404b1/50074d43-8959-4ef1-995c-8ddaa6f42eda"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
@@ -2388,12 +2382,6 @@
     )
     (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/00ca0e2a-82ed-4631-bd78-fa8445f24e7e"
       (reference "C9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
-    )
-    (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/014ebff9-7673-4bcb-9457-df80282443ad"
-      (reference "C10") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_1206_3216Metric")
-    )
-    (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/f556788e-67ea-418a-8d8c-c7af43600f26"
-      (reference "C11") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/543ff0e9-1b50-4e35-9a5a-5e315a9404b1/fa4bf101-192e-486d-83fb-c14c5031ac37"
       (reference "C12") (unit 1) (value "470uF") (footprint "Capacitor_SMD:C_Elec_8x6.2")
@@ -2538,9 +2526,6 @@
     )
     (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/d25c6c41-2c07-4cf6-8460-6017bc9f7c3c"
       (reference "X1") (unit 1) (value "ASV-12.000MHZ-EJ-T") (footprint "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm")
-    )
-    (path "/eb804d6f-f145-402d-b229-a6a7cac1323a/0e8d0115-85bd-4552-b987-d7d86b32758b"
-      (reference "Y1") (unit 1) (value "ABLS-20.000MHz-16-A-4-H-T") (footprint "BTS-LogicBoard:Crystal_SMD_TH_Combo_HC49-SD")
     )
   )
 )
